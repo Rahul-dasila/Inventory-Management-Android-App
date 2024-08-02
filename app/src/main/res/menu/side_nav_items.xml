@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/storereport"
+    android:title="Store Report"
+    android:icon="@drawable/baseline_store_24"/>
+
+    <item
+        android:id="@+id/issueReportAd"
+        android:title="Issue Report"
+        android:icon="@drawable/baseline_issue_long_24"/>
+    <item
+        android:id="@+id/outOfStockA"
+        android:title="Out of stock"
+        android:icon="@drawable/baseline_add_outofstock_24"/>
+    <item
+        android:id="@+id/Itp"
+        android:title="Add Moderator"
+        android:icon="@drawable/baseline_list_alt_24"/>
+    <item
+        android:id="@+id/Itml"
+        android:title="Moderator list"
+        android:icon="@drawable/baseline_filter_list_24"/>
+    <item
+        android:id="@+id/addOrg"
+        android:title="Add Organization"
+        android:icon="@drawable/baseline_assured_workload_24"/>
+    <item
+        android:id="@+id/Org"
+        android:title="Organization List"
+        android:icon="@drawable/baseline_filter_list_24"/>
+    <item
+        android:id="@+id/pendingDemandOrg"
+        android:title="Oraganization pending demands"
+        android:icon="@drawable/baseline_app_registration_24"/>
+
+    <item
+        android:id="@+id/orgDemands"
+        android:title="Oraganization Demands"
+        android:icon="@drawable/baseline_real_estate_agent_24"/>
+    
+</menu>

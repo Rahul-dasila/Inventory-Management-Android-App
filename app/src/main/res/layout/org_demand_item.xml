@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:elevation="5dp"
+    android:background="@drawable/rqstbg"
+    android:layout_margin="15dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date &amp; Time :   "
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_medium"
+            />
+        <TextView
+            android:id="@+id/oDT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25-05-2005 / 06 : 34 PM"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/skyBlue"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Demand Id :   "
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_medium"/>
+        <TextView
+            android:id="@+id/OdmndId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22WE34DS34"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/skyBlue"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Company Id :   "
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_medium"/>
+        <TextView
+            android:id="@+id/OId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22BCA0258"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/skyBlue"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Type :   "
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_medium"/>
+        <TextView
+            android:id="@+id/opdtype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mouse"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/skyBlue"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Name :   "
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_medium"/>
+        <TextView
+            android:id="@+id/opname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hp wireless"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/skyBlue"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Model :   "
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_medium"/>
+        <TextView
+            android:id="@+id/opdmodel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latest"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/skyBlue"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Brand :   "
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_medium"/>
+        <TextView
+            android:id="@+id/oband"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/skyBlue"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity :   "
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_medium"/>
+        <TextView
+            android:id="@+id/oqut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="120"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/skyBlue"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Additional Details :   "
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_medium"/>
+        <TextView
+            android:id="@+id/oadt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="None"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/skyBlue"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status :   "
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_medium"/>
+        <TextView
+            android:id="@+id/opdstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pending"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/yellow"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/acptLayout2"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/oAccept"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:gravity="center"
+            android:text="Accept"
+            android:background="@drawable/acp_btn"
+            android:layout_weight="1"
+            android:layout_marginEnd="5dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_medium"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:layout_weight="1"
+            android:id="@+id/oReject"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:text="Reject"
+            android:background="@drawable/rjct_btn"
+            android:fontFamily="@font/poppins_medium"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

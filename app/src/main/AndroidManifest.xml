@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="34" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NCC_Inventory"
+        tools:targetApi="31">
+        <activity
+            android:name=".Issue_report_admin"
+            android:exported="false" />
+        <activity
+            android:name=".savepass"
+            android:exported="false" />
+        <activity
+            android:name=".enter_otp_screen"
+            android:exported="false" />
+        <activity
+            android:name=".forgot_pass"
+            android:exported="false" />
+        <activity
+            android:name=".user_profile"
+            android:exported="false" />
+        <activity
+            android:name=".organization_profile"
+            android:exported="false" />
+        <activity
+            android:name=".ticket_raised"
+            android:exported="false" />
+        <activity
+            android:name=".OrganizationDemandsNav"
+            android:exported="false" />
+        <activity
+            android:name=".orgPendingDemands"
+            android:exported="false" />
+        <activity
+            android:name=".issurOrgFilter"
+            android:exported="false" />
+        <activity
+            android:name=".issueOrg"
+            android:exported="false" />
+        <activity
+            android:name=".allproductreportpanel"
+            android:exported="false" />
+        <activity
+            android:name=".orgDemands_panel"
+            android:exported="false" />
+        <activity
+            android:name=".adminorgprofile"
+            android:exported="false" />
+        <activity
+            android:name=".organization_list_panel"
+            android:exported="false" />
+        <activity
+            android:name=".userReceivedProductsPanel"
+            android:exported="false" />
+        <activity
+            android:name=".orgRaiseDemandPanel"
+            android:exported="false" />
+        <activity
+            android:name=".addOrganization"
+            android:exported="false" />
+        <activity
+            android:name=".adminModeratorProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Moderator_list"
+            android:exported="false" />
+        <activity
+            android:name=".outofstock"
+            android:exported="false" />
+        <activity
+            android:name=".organizationDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".filterUserAssign"
+            android:exported="false" />
+        <activity
+            android:name=".issue_product_moderator_dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".moderator_profile"
+            android:exported="false" />
+        <activity
+            android:name=".moderatorDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".add_tech_person"
+            android:exported="false" />
+        <activity
+            android:name=".profileManager"
+            android:exported="false" />
+        <activity
+            android:name=".managerDemandReceivedPanel"
+            android:exported="false" />
+        <activity
+            android:name=".managerDashboard"
+            android:exported="false"
+            android:theme="@style/Theme.NCC_Inventory_dashboard" />
+        <activity
+            android:name=".storeReport"
+            android:exported="false" />
+        <activity
+            android:name=".PendingDemandPanelAdmin"
+            android:exported="false"
+            android:theme="@style/Theme.NCC_Inventory_pendingdemand">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Dashboard" />
+        </activity>
+        <activity
+            android:name=".checkDemandStatusUser"
+            android:exported="false"
+            android:theme="@style/Theme.NCC_Inventory_userdemandSt">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".userRaiseDemandPanel" />
+        </activity>
+        <activity
+            android:name=".requestedDemandPanelAdmin"
+            android:exported="false"
+            android:theme="@style/Theme.NCC_Inventory_demandrequested">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Dashboard" />
+        </activity>
+        <activity
+            android:name=".userRaiseDemandPanel"
+            android:exported="false" />
+        <activity
+            android:name=".userDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".AuthoraizationStrore"
+            android:exported="false"
+            android:theme="@style/Theme.NCC_Inventory_authStore">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Dashboard" />
+        </activity>
+        <activity
+            android:name=".adminUserprofile"
+            android:exported="false"
+            android:theme="@style/Theme.NCC_Inventory_userPf">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".addUser" />
+        </activity>
+        <activity
+            android:name=".addUser"
+            android:exported="false"
+            android:theme="@style/Theme.NCC_Inventory_addManager" />
+        <activity
+            android:name=".managerAdminProfile"
+            android:exported="false"
+            android:theme="@style/Theme.NCC_Inventory_managerPf">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ManagerActivity" />
+        </activity>
+        <activity
+            android:name=".ManagerActivity"
+            android:exported="false"
+            android:theme="@style/Theme.NCC_Inventory_addManager">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Dashboard" />
+        </activity>
+        <activity
+            android:name=".addCategory"
+            android:exported="false"
+            android:theme="@style/Theme.NCC_Inventory_addcategory">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".loginpage" />
+        </activity>
+        <activity
+            android:name=".profileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.NCC_Inventory_profile">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".loginpage" />
+        </activity>
+        <activity
+            android:name=".Dashboard"
+            android:exported="false"
+            android:theme="@style/Theme.NCC_Inventory_dashboard" />
+        <activity
+            android:name=".loginpage"
+            android:exported="false"
+            android:theme="@style/Theme.NCC_Inventory" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/purple"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:paddingStart="25dp"
+    android:gravity="bottom"
+    android:layout_height="200dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/profilepic"
+        android:layout_marginBottom="5dp"
+        app:civ_border_width="3dp"
+        app:civ_border_color="@color/white"
+        />
+    <TextView
+        android:id="@+id/headerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Ram"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"/>
+    <TextView
+        android:id="@+id/headerId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:text="dasilarahul73@gmail.com"
+        android:textColor="#bebebe"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"/>
+
+</LinearLayout>
